@@ -1,0 +1,54 @@
+{
+  "wall_seconds": 0.471,
+  "concurrency": 8,
+  "call_latency_seconds": {
+    "avg": 0.109,
+    "median": 0.1,
+    "min": 0.07,
+    "max": 0.2
+  },
+  "calls": 30,
+  "successful_calls": 30,
+  "total_input_tokens": 31844,
+  "total_output_tokens": 4380,
+  "avg_input_tokens_per_call": 1061.5,
+  "price_per_million_input_tokens": 0.042,
+  "estimated_cost_usd": 0.00133745,
+  "estimated_cost_per_call_usd": 4.458e-05,
+  
+  "llm_comparison": {
+    "assumptions": "Estimates, not measured. Input = measured Jev input tokens + 200 tokens/call for an output-format system prompt; Claude's tokenizer may count the same text differently. Output tokens per call are assumed. Latency = assumed time-to-first-token + output tokens / assumed output speed; wall time assumes the same 8-way concurrency as the Jev run.",
+    "models": {
+      "claude-sonnet-5-5": {
+        "input_per_million": 2.0,
+        "output_per_million": 10.0,
+        "est_output_tokens_per_call": 150,
+        "est_seconds_to_first_token": 1.0,
+        "est_output_tokens_per_second": 70,
+        "est_input_tokens": 37844,
+        "est_output_tokens": 4500,
+        "estimated_cost_usd": 0.120688,
+        "estimated_cost_per_call_usd": 0.004023,
+        "times_jev_cost": 90.2,
+        "est_seconds_per_call": 3.14,
+        "est_wall_seconds": 12.57,
+        "times_jev_wall_time": 26.7
+      },
+      "claude-opus-5-5": {
+        "input_per_million": 4.0,
+        "output_per_million": 20.0,
+        "est_output_tokens_per_call": 400,
+        "est_seconds_to_first_token": 2.0,
+        "est_output_tokens_per_second": 45,
+        "est_input_tokens": 37844,
+        "est_output_tokens": 12000,
+        "estimated_cost_usd": 0.391376,
+        "estimated_cost_per_call_usd": 0.013046,
+        "times_jev_cost": 292.6,
+        "est_seconds_per_call": 10.89,
+        "est_wall_seconds": 43.56,
+        "times_jev_wall_time": 92.4
+      }
+    }
+  }
+}
