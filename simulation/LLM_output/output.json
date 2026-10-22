@@ -1,0 +1,722 @@
+[
+  {
+    "text": "Hi! What does your quarterly plan cost?",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.0
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.01,
+        "confidence": 0.96,
+        "probabilities": {
+          "0": 0.99,
+          "1": 0.01,
+          "2": 0.0,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "Your tech Marcus was awesome today, super friendly and explained everything. Thanks!",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.0
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.01,
+        "confidence": 0.96,
+        "probabilities": {
+          "0": 0.99,
+          "1": 0.01,
+          "2": 0.0,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "Can I move my Thursday appointment to Saturday morning?",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.04
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.04,
+        "confidence": 0.89,
+        "probabilities": {
+          "0": 0.97,
+          "1": 0.02,
+          "2": 0.01,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "Is the spray safe for my dog? How long should I keep her inside?",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.08,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.75
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.06,
+        "confidence": 0.84,
+        "probabilities": {
+          "0": 0.95,
+          "1": 0.04,
+          "2": 0.01,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "We've been on the quarterly plan for 2 years and haven't seen a single spider. Love you guys.",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.0
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.02,
+        "confidence": 0.93,
+        "probabilities": {
+          "0": 0.98,
+          "1": 0.02,
+          "2": 0.0,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "There's a wasp nest under my deck, how soon can someone come out?",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.12,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.9
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.05,
+        "confidence": 0.86,
+        "probabilities": {
+          "0": 0.96,
+          "1": 0.03,
+          "2": 0.01,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "The ants are back already, only 3 weeks after the last visit. Do I have to pay for another treatment?",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.78
+    },
+    "scores": {
+      "frustration": {
+        "score": 1.28,
+        "confidence": 0.33,
+        "probabilities": {
+          "0": 0.08,
+          "1": 0.57,
+          "2": 0.34,
+          "3": 0.01
+        }
+      }
+    }
+  },
+  {
+    "text": "I was charged $218 but my quote was $109. Please explain.",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.99,
+      "out_of_scope": 0.99
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.95,
+        "confidence": 0.39,
+        "probabilities": {
+          "0": 0.18,
+          "1": 0.7,
+          "2": 0.11,
+          "3": 0.01
+        }
+      }
+    }
+  },
+  {
+    "text": "I never signed up for a recurring plan and you charged my card again. This is unauthorized and I'm calling my bank to dispute it.",
+    "nouls": {
+      "legal_threat": 0.01,
+      "human_request": 0.01,
+      "churn_threat": 0.01,
+      "safety_risk": 0.0,
+      "abusive": 0.01,
+      "payment_dispute": 0.99,
+      "out_of_scope": 0.9
+    },
+    "scores": {
+      "frustration": {
+        "score": 2.16,
+        "confidence": 0.52,
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.04,
+          "2": 0.76,
+          "3": 0.2
+        }
+      }
+    }
+  },
+  {
+    "text": "Do you guys treat bed bugs?",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.05
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.02,
+        "confidence": 0.93,
+        "probabilities": {
+          "0": 0.98,
+          "1": 0.02,
+          "2": 0.0,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "I think I have termites in my garage. Can you come look?",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.99
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.02,
+        "confidence": 0.93,
+        "probabilities": {
+          "0": 0.98,
+          "1": 0.02,
+          "2": 0.0,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "I want to cancel my plan effective immediately.",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.99,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.99
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.16,
+        "confidence": 0.67,
+        "probabilities": {
+          "0": 0.85,
+          "1": 0.14,
+          "2": 0.01,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "Third time I've called about mice in the kitchen. Nobody has shown up. If this isn't fixed this week I'm switching to Orkin.",
+    "nouls": {
+      "legal_threat": 0.01,
+      "human_request": 0.01,
+      "churn_threat": 0.99,
+      "safety_risk": 0.01,
+      "abusive": 0.02,
+      "payment_dispute": 0.01,
+      "out_of_scope": 0.82
+    },
+    "scores": {
+      "frustration": {
+        "score": 2.28,
+        "confidence": 0.42,
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.03,
+          "2": 0.63,
+          "3": 0.33
+        }
+      }
+    }
+  },
+  {
+    "text": "After your guy sprayed, my daughter broke out in a rash and is having trouble breathing. What chemical did you use??",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 1.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.99
+    },
+    "scores": {
+      "frustration": {
+        "score": 1.96,
+        "confidence": 0.54,
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.12,
+          "2": 0.8,
+          "3": 0.08
+        }
+      }
+    }
+  },
+  {
+    "text": "Your technician backed into my fence and cracked two panels. Who is paying for this?",
+    "nouls": {
+      "legal_threat": 0.01,
+      "human_request": 0.01,
+      "churn_threat": 0.01,
+      "safety_risk": 0.01,
+      "abusive": 0.01,
+      "payment_dispute": 0.02,
+      "out_of_scope": 0.99
+    },
+    "scores": {
+      "frustration": {
+        "score": 1.84,
+        "confidence": 0.51,
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.18,
+          "2": 0.77,
+          "3": 0.04
+        }
+      }
+    }
+  },
+  {
+    "text": "If my cat gets sick from your poison I will sue you into the ground.",
+    "nouls": {
+      "legal_threat": 0.99,
+      "human_request": 0.01,
+      "churn_threat": 0.01,
+      "safety_risk": 0.68,
+      "abusive": 0.08,
+      "payment_dispute": 0.01,
+      "out_of_scope": 0.02
+    },
+    "scores": {
+      "frustration": {
+        "score": 2.66,
+        "confidence": 0.48,
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.02,
+          "2": 0.27,
+          "3": 0.7
+        }
+      }
+    }
+  },
+  {
+    "text": "I'm filing a complaint with the Utah Department of Agriculture about your tech spraying in the rain.",
+    "nouls": {
+      "legal_threat": 0.99,
+      "human_request": 0.01,
+      "churn_threat": 0.01,
+      "safety_risk": 0.04,
+      "abusive": 0.02,
+      "payment_dispute": 0.01,
+      "out_of_scope": 0.08
+    },
+    "scores": {
+      "frustration": {
+        "score": 1.91,
+        "confidence": 0.49,
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.14,
+          "2": 0.78,
+          "3": 0.07
+        }
+      }
+    }
+  },
+  {
+    "text": "Can I please just talk to a real person? This bot isn't helping.",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.99,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.01,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.84
+    },
+    "scores": {
+      "frustration": {
+        "score": 1.87,
+        "confidence": 0.57,
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.14,
+          "2": 0.82,
+          "3": 0.03
+        }
+      }
+    }
+  },
+  {
+    "text": "you people are worthless scammers and your bot is a joke",
+    "nouls": {
+      "legal_threat": 0.01,
+      "human_request": 0.01,
+      "churn_threat": 0.01,
+      "safety_risk": 0.01,
+      "abusive": 0.99,
+      "payment_dispute": 0.01,
+      "out_of_scope": 0.02
+    },
+    "scores": {
+      "frustration": {
+        "score": 2.86,
+        "confidence": 0.7,
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.12,
+          "3": 0.87
+        }
+      }
+    }
+  },
+  {
+    "text": "ok",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.0
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.01,
+        "confidence": 0.96,
+        "probabilities": {
+          "0": 0.99,
+          "1": 0.01,
+          "2": 0.0,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "Do you offer a discount for veterans?",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.98
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.02,
+        "confidence": 0.93,
+        "probabilities": {
+          "0": 0.98,
+          "1": 0.02,
+          "2": 0.0,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "There's a raccoon living in my attic, can you remove it?",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.03,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.99
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.06,
+        "confidence": 0.84,
+        "probabilities": {
+          "0": 0.95,
+          "1": 0.04,
+          "2": 0.01,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "Thanks for fitting me in so fast, the cockroaches are totally gone!",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.0
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.01,
+        "confidence": 0.96,
+        "probabilities": {
+          "0": 0.99,
+          "1": 0.01,
+          "2": 0.0,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "Why was I charged a $35 late fee? I paid on time.",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.98,
+      "out_of_scope": 0.98
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.99,
+        "confidence": 0.3,
+        "probabilities": {
+          "0": 0.2,
+          "1": 0.62,
+          "2": 0.17,
+          "3": 0.01
+        }
+      }
+    }
+  },
+  {
+    "text": "Hey can you send me the invoice from last month for my taxes?",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.99
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.02,
+        "confidence": 0.92,
+        "probabilities": {
+          "0": 0.98,
+          "1": 0.02,
+          "2": 0.0,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "Honestly this infestation is making me lose my mind, I can't sleep and I don't know how much more I can take.",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.3,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.05
+    },
+    "scores": {
+      "frustration": {
+        "score": 2.12,
+        "confidence": 0.6,
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.82,
+          "3": 0.15
+        }
+      }
+    }
+  },
+  {
+    "text": "ARE YOU KIDDING ME. THE TECH LEFT MY GATE OPEN AND MY DOG RAN AWAY.",
+    "nouls": {
+      "legal_threat": 0.01,
+      "human_request": 0.01,
+      "churn_threat": 0.01,
+      "safety_risk": 0.08,
+      "abusive": 0.04,
+      "payment_dispute": 0.01,
+      "out_of_scope": 0.72
+    },
+    "scores": {
+      "frustration": {
+        "score": 2.92,
+        "confidence": 0.8,
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.08,
+          "3": 0.92
+        }
+      }
+    }
+  },
+  {
+    "text": "What's the difference between the one-time treatment and the quarterly plan?",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.0
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.02,
+        "confidence": 0.93,
+        "probabilities": {
+          "0": 0.98,
+          "1": 0.02,
+          "2": 0.0,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "My neighbor recommended you. Do you service Lehi?",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.0,
+      "payment_dispute": 0.0,
+      "out_of_scope": 0.03
+    },
+    "scores": {
+      "frustration": {
+        "score": 0.02,
+        "confidence": 0.93,
+        "probabilities": {
+          "0": 0.98,
+          "1": 0.02,
+          "2": 0.0,
+          "3": 0.0
+        }
+      }
+    }
+  },
+  {
+    "text": "I'd like a refund for the last visit, the spiders never went away and the tech was rude.",
+    "nouls": {
+      "legal_threat": 0.0,
+      "human_request": 0.0,
+      "churn_threat": 0.0,
+      "safety_risk": 0.0,
+      "abusive": 0.02,
+      "payment_dispute": 0.99,
+      "out_of_scope": 0.99
+    },
+    "scores": {
+      "frustration": {
+        "score": 1.9,
+        "confidence": 0.51,
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.14,
+          "2": 0.79,
+          "3": 0.06
+        }
+      }
+    }
+  }
+]

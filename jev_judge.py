@@ -1,11 +1,11 @@
 """Judge customer messages with Jev and print raw escalation signals as JSON.
 
 Usage:
-    python message-judge.py "text one" "text two"
-    python message-judge.py --file texts.txt        # one per line, or a JSON array of strings
-    cat texts.txt | python message-judge.py
-    python message-judge.py --context agent.md "..."  # enables the out_of_scope question
-    python message-judge.py --usage-report usage.json "..."  # writes token totals and estimated cost
+    python jev_judge.py "text one" "text two"
+    python jev_judge.py --file texts.txt        # one per line, or a JSON array of strings
+    cat texts.txt | python jev_judge.py
+    python jev_judge.py --context agent.md "..."  # enables the out_of_scope question
+    python jev_judge.py --usage-report usage.json "..."  # writes token totals and estimated cost
 
 No thresholds or escalation decisions are made here; consumers read the numbers.
 """

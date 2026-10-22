@@ -1,0 +1,25 @@
+{
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "wall_seconds": 15.9,
+  "concurrency": 8,
+  "call_latency_seconds": {
+    "avg": 3.701,
+    "median": 3.518,
+    "min": 2.233,
+    "max": 6.159
+  },
+  "calls": 30,
+  "successful_calls": 30,
+  "total_input_tokens": 40792,
+  "cached_input_tokens": 0,
+  "total_output_tokens": 5019,
+  "reasoning_output_tokens": 2033,
+  "avg_input_tokens_per_call": 1359.7,
+  "avg_output_tokens_per_call": 167.3,
+  "price_per_million_input_tokens": 0.1,
+  "price_per_million_output_tokens": 0.5,
+  "estimated_cost_usd": 0.0065887,
+  "estimated_cost_per_call_usd": 0.00021962,
+  "notes": "Cost uses list prices and ignores cached-input discounts. Score confidence is 1 - normalized entropy of the level probabilities, which may differ from Jev's formula."
+}
